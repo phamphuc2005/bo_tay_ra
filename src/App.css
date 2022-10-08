@@ -5,18 +5,52 @@
     justify-content: center;
 }
 
+.main.touched {
+    background-color: red;
+}
+
+h1 {
+    margin-top: 20px;
+    color: blue;
+}
+
+.video-background {
+    margin-top: 20px;
+    width: 610px;
+    height: 460px;
+    background-color: pink;
+    border-radius: 5px;
+}
+
 .video {
-    width: 480px;
-    height: 360px;
+    margin: 5px 5px;
+    width: 600px;
+    height: 450px;
     background-color: #333;
+    border-color: white;
 }
 
 .control {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .btn {
     padding: 4px 16px;
     font-size: 1.4rem;
     margin: 0 8px;
+    border-color: purple;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-notouch {
+    color: gold;
+}
+
+.btn-touched {
+    color: red;
+}
+
+.btn-run {
+    color: green;
 }
